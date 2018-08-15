@@ -9,7 +9,7 @@ services:
         ports:
             - '${INTERFACE}:9000:9000'
         links:
-            - mysql
+            #- mysql
             - memcached
         networks:
             - bitrix
