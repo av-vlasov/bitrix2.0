@@ -56,7 +56,7 @@ return [
                     'default' =>
                         [
                             'className' => '\\Bitrix\\Main\\DB\\MysqliConnection',
-                            'host' => 'mysql',
+                            'host' => '127.0.0.1',
                             'database' => 'bitrix',
                             'login' => 'root',
                             'password' => '123',
